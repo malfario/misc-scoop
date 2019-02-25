@@ -1,0 +1,14 @@
+{
+  "homepage": "https://janet-lang.org",
+  "url": "https://github.com/janet-lang/janet/releases/download/0.3.0/janet-windows.zip",
+  "version": "0.3.0",
+  "bin": "janet.exe",
+  "autoupdate": {
+    "url": "https://github.com/janet-lang/janet/releases/download/$version/janet-windows.zip"
+  },
+  "checkver": {
+    "github": "https://github.com/janet-lang/janet"
+  },
+  "description": "Janet is a functional and imperative programming language",
+  "license": "MIT"
+}
